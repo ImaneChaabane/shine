@@ -1,0 +1,58 @@
+.main-banner-section p, .main-banner-section .block-editor-rich-text__editable.wp-block-button__link, .choose-us-section p{
+	font-family: 'Open Sans', sans-serif !important;
+}
+.main-banner-section h1, .choose-us-section h2, .choose-us-section h3{
+	font-family: Montserrat !important;
+}
+/*Banner section*/
+.main-banner-section h1, .choose-us-section h2, .choose-us-section h3{
+  font-weight: bold !important;
+}
+.main-banner-section .block-editor-rich-text__editable.wp-block-button__link{
+  color: #ffffff !important;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #ff5400 !important;
+}
+.main-banner-section .block-editor-rich-text__editable.wp-block-button__link:hover{
+  color: #ffffff !important;
+  background: transparent !important;
+  border: 2px solid #ffffff !important;
+}
+/*Choose us section*/
+.choose-us-section h2.block-editor-rich-text__editable.block-editor-block-list__block.wp-block:after{
+  content: "";
+  background: url(../images/car-border.png) no-repeat center;
+  padding: 20px;
+  display: block;
+  bottom: auto;
+  top: auto;
+}
+.choose-us-section figure{
+  border-radius: 50%;
+  background: #222222;
+  padding: 20px 20px;
+  position: relative !important;
+  line-height: 0;
+}
+.choose-us-section figure:hover {
+  background: #f95500;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.choose-us-section figure:after {
+  border-color: #222222 transparent transparent transparent !important;
+  top: 95% !important;
+  position: absolute !important;
+  z-index: -1;
+  content: "" !important;
+  border-style: solid;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  left: calc(50% - 10px) !important;
+  border-width: 10px 10px 0 10px;
+  right: auto !important;
+}
+.choose-us-section figure:hover:after{
+  border-top-color: #f95500!important;
+}

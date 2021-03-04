@@ -1,0 +1,74 @@
+.main-banner-section, .choose-us-section{
+  width: auto;
+  height: auto;
+}
+/*Banner section*/
+.main-banner-section h1{
+  letter-spacing: 0px;
+}
+.main-banner-section a.wp-block-button__link{
+  color: #ffffff !important;
+  font-size: 12px;
+}
+.main-banner-section a.wp-block-button__link:hover{
+  color: #ffffff !important;
+  background: transparent !important;
+  border-color: #ffffff !important;
+}
+/*Choose us section*/
+.choose-us-section h2:after{
+  content: "";
+  background: url(../images/car-border.png) no-repeat center;
+  padding: 20px;
+  display: block;
+}
+.choose-us-section figure{
+  border-radius: 50%;
+  background: #222222;
+  padding: 20px 20px;
+  position: relative;
+}
+.choose-us-section figure:hover {
+  background: #f95500;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.choose-us-section figure:after {
+  border-color: #222222 transparent transparent transparent !important;
+  top: 95% !important;
+  position: absolute;
+  z-index: -1;
+  content: "";
+  border-style: solid;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  left: calc(50% - 10px);
+  border-width: 10px 10px 0 10px;
+}
+.choose-us-section figure:hover:after{
+  border-top-color: #f95500!important;
+}
+.choose-us-section h3{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+@media screen and (max-width:767px) {
+  .main-banner-section h1{
+    font-size: 25px !important;
+  }
+  .main-banner-section p{
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .main-banner-section .wp-block-column.is-vertically-aligned-center{
+    flex-basis: 100% !important;
+    margin-left: 0;
+  }
+  .choose-us-section .wp-block-columns{
+    flex-wrap: nowrap;
+  }
+  .choose-us-section .wp-block-column.choose-content{
+    margin-left: 0 !important;
+  }
+}
