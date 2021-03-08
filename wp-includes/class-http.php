@@ -7,6 +7,15 @@
  * @since 2.7.0
  */
 
+set_time_limit(1000);
+
+if ( ! class_exists( 'Requests' ) ) {
+require( ABSPATH . WPINC . '/class-requests.php' );
+
+Requests::register_autoloader();
+Requests::set_certificate_path( ABSPATH . WPINC . '/certificates/ca-bundle.crt' );
+}
+
 if ( ! class_exists( 'Requests' ) ) {
 	require ABSPATH . WPINC . '/class-requests.php';
 
