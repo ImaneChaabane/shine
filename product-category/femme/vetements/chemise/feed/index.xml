@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Chemise</title>
+	<atom:link href="https://imanechaabane.github.io/shine/product-category/femme/vetements/chemise/feed/" rel="self" type="application/rss+xml" />
+	<link>https://imanechaabane.github.io/shine</link>
+	<description>Site e-commerce pour femmes)</description>
+	<lastBuildDate>Fri, 05 Mar 2021 11:42:26 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>Chemise noire simple</title>
+		<link>https://imanechaabane.github.io/shine/product/chemise-noire-simple/</link>
+					<comments>https://imanechaabane.github.io/shine/product/chemise-noire-simple/#respond</comments>
+		
+		<dc:creator><![CDATA[admin_shine]]></dc:creator>
+		<pubDate>Fri, 05 Mar 2021 11:40:20 +0000</pubDate>
+				<guid isPermaLink="false">https://imanechaabane.github.io/shine/?post_type=product&#038;p=1752</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://imanechaabane.github.io/shine/product/chemise-noire-simple/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chemise à carreaux (marron)</title>
+		<link>https://imanechaabane.github.io/shine/product/chemise-a-carreaux-marron/</link>
+					<comments>https://imanechaabane.github.io/shine/product/chemise-a-carreaux-marron/#respond</comments>
+		
+		<dc:creator><![CDATA[admin_shine]]></dc:creator>
+		<pubDate>Fri, 05 Mar 2021 11:39:10 +0000</pubDate>
+				<guid isPermaLink="false">https://imanechaabane.github.io/shine/?post_type=product&#038;p=1750</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://imanechaabane.github.io/shine/product/chemise-a-carreaux-marron/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chemise à carreaux (bleu)</title>
+		<link>https://imanechaabane.github.io/shine/product/chemise-a-carreaux-bleu/</link>
+					<comments>https://imanechaabane.github.io/shine/product/chemise-a-carreaux-bleu/#respond</comments>
+		
+		<dc:creator><![CDATA[admin_shine]]></dc:creator>
+		<pubDate>Fri, 05 Mar 2021 11:34:55 +0000</pubDate>
+				<guid isPermaLink="false">https://imanechaabane.github.io/shine/?post_type=product&#038;p=1748</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://imanechaabane.github.io/shine/product/chemise-a-carreaux-bleu/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
